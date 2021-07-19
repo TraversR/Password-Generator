@@ -52,7 +52,7 @@ while generating == True:
         try:
             print("------------------------------------------------------------------------------------")
             pass_type = int(input(
-                "Enter the number for the type of password you'd like: \n 1.Letters Only \n 2.Numbers and Letters \n 3,Numbers, Letters, and Special Characters"))
+                "Enter the number for the type of password you'd like: \n 1.Letters Only \n 2.Numbers and Letters \n 3.Numbers, Letters, and Special Characters"))
             print("------------------------------------------------------------------------------------ \n")
             if pass_type >= 0 and pass_type <= 3:
                 valid_type = True
